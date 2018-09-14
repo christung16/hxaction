@@ -23,5 +23,5 @@
   - name: update UCSM HX vmedia policy to ESXI_custom ISO
   - name: update UCSM boot policy template to boot vmedia
   - name: boot server
-  - 
+  - name: update UCSM boot policy template to HDD
   
