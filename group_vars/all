@@ -1,3 +1,5 @@
+esxi.hostname: 10.1.53.8
+vcsa_iso: install_vc.retry
 vcenter_entries:
 ## ESXI:
   hostname: 10.1.53.8  
