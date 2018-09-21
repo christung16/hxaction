@@ -3,37 +3,37 @@
     "__comments": "Sample template to deploy a vCenter Server Appliance with an embedded Platform Services Controller on an ESXi host.",
     "new.vcsa": {
         "esxi": {
-            "hostname": {{ vcenter_entries.hostname }}
-            "username": "admin"
-            "password": "cisco1234%"
-            "deployment.network": "HX62"
-            "datastore": "DATASTORE_LARGE"
+            "hostname": "{{ vc_esxi.hostname }}",
+            "username": "{{ vc_esxi.username }}",
+            "password": "{{ vc_esxi.password }}",
+            "deployment.network": "{{ vc_esxi.deploymentnetwork }}",
+            "datastore": "{{ vc_esxi.datastore }}"
         },
         "appliance": {
             "thin.disk.mode": true,
             "deployment.option": "small",
-            "name": "vCenter-6.5-temp"
+            "name": "{{ vc_appliance.name }}"
         },
         "network": {
-            "ip.family": "ipv4",
-            "mode": "static",
-            "ip": "10.1.53.101"
-            "dns.servers": "[u'10.1.53.8']"
-                "10.1.53.8"
+            "ip.family": "{{ vc_network.ipfamily }}",
+            "mode": "{{ vc_network.mode }}",
+            "ip": "{{ vc_network.ip }}",
+            "dns.servers": [
+                "{{ vc_network.dnsservers }}"
             ],
-            "prefix": "24"
-            "gateway": "10.1.53.254"
-            "system.name": "10.1.53.101"
+            "prefix": "{{ vc_network.prefix }}",
+            "gateway": "{{ vc_network.gateway }}",
+            "system.name": "{{ vc_network.systemname }}"
         },
         "os": {
-            "password": "cisco1234%"
-            "ssh.enable": "True"
-            "ntp.servers": "10.1.53.8"
+            "password": "{{ vc_os.password }}",
+            "ssh.enable": {{ vc_os.sshenable }},
+            "ntp.servers": "{{ vc_os.ntpservers }}"
         },
         "sso": {
-            "password": "cisco1234%"
-            "domain-name": "vsphere.local"
-            "site-name": "Site1"
+            "password": "{{ vc_sso.password }}",
+            "domain-name": "{{ vc_sso.domainname }}",
+            "site-name": "{{ vc_sso.sitename }}"
         }
     },
     "ceip": {

@@ -1,23 +1,26 @@
-esxi.hostname: 10.1.53.8
-vcsa_iso: install_vc.retry
-vcenter_entries:
-## ESXI:
-  hostname: 10.1.53.8  
+vcsa_iso: /var/lib/tftpboot/images/VMware-VCSA-all-6.5.0-8307201.iso
+vc_esxi:
+  hostname: 10.74.202.123
   username: root
-  password: cisco1234%
-  deployment.network: HX62
-  datastore: DATASTORE_LARGE
-## APPLIANCE:
-  name: vCenter-6.5-temp
-## NETWORK:
-  ip: 10.1.53.101
-  dns.servers: [ "10.1.53.8" ]
+  password: cisco,123
+  deploymentnetwork: VM Network
+  datastore: datastore1 (4)
+vc_appliance:
+  name: vCenter-6.0-temp
+vc_network:
+  ipfamily: ipv4
+  ip: 10.74.202.100
+  mode: static
+  dnsservers: 64.104.123.145
   prefix: 24
-  gateway: 10.1.53.254
-  system.name: 10.1.53.101
-## OS:
-  ssh.enable: true
-  ntp.servers: 10.1.53.8
-## SSO:
-  domain-name: vsphere.local
-  site-name: Site1
+  gateway: 10.74.202.1
+  systemname: 10.74.202.100
+vc_os:
+  password: Cisco,123
+## Need to ensure all lower characters so need a double quote
+  sshenable: "false"
+  ntpservers: ntp.esl.cisco.com
+vc_sso:
+  password: Cisco,123
+  domainname: vsphere.local
+  sitename: Site1
