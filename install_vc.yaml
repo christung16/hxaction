@@ -20,6 +20,14 @@
   - name: Installing vCenter
     shell: /mnt/vcsa/vcsa-cli-installer/lin64/vcsa-deploy install --acknowledge-ceip --accept-eula --no-esx-ssl-verify /root/hxaction/embedded_appliance_vcenter_1.json >> /root/hxaction/vcsa-deploy.log
     tags: install
+  - name: umount VCSA iso
+    mount:
+      path: /mnt/vcsa
+      src: '{{ vcsa_iso }}'
+      fstype: iso9660
+      opts: ro,noauto
+      state: unmounted
+    tags: pre-install
 #  - name: update UCSM HX vmedia policy to ESXI_custom ISO
 #  - name: update UCSM boot policy template to boot vmedia
 #  - name: boot server
