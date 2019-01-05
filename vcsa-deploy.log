@@ -1,0 +1,826 @@
+Run the installer with "-v" or "--verbose" to log detailed information
+Execution Details:
+[1] Result and Log File Information
+[2] Template Syntax Validation
+[3] Template Verification
+[4] Gather Requirements
+[5] Prechecks
+[6] OVF Tool Parameter Verification
+=========== [1] Result and Log File Information started at 05:32:40 ===========
+Following result and log files will be generated...
+The vCenter Server Appliance installer result file:
+/tmp/vcsaCliInstaller-2019-01-04-05-32-jwbBqK/vcsa-cli-installer.json The
+vCenter Server Appliance installer log file:
+/tmp/vcsaCliInstaller-2019-01-04-05-32-jwbBqK/vcsa-cli-installer.log The vCenter
+Server Appliance installer metadata file:
+/tmp/vcsaCliInstaller-2019-01-04-05-32-jwbBqK/vcsa-cli-installer-metadata.json
+The vCenter Server Appliance installer status file:
+/tmp/vcsaCliInstaller-2019-01-04-05-32-jwbBqK/vcsa-cli-installer-status.json The
+generated template file:
+/tmp/vcsaCliInstaller-2019-01-04-05-32-jwbBqK/generated_install.json
+============== [2] Template Syntax Validation started at 05:32:40 ==============
+Validating json template syntax...
+=================================== 05:32:40 ===================================
+Result and Log File Information...
+The vCenter Server Appliance installer result file:
+/tmp/vcsaCliInstaller-2019-01-04-05-32-jwbBqK/vcsa-cli-installer.json The
+vCenter Server Appliance installer log file:
+/tmp/vcsaCliInstaller-2019-01-04-05-32-jwbBqK/vcsa-cli-installer.log The vCenter
+Server Appliance installer metadata file:
+/tmp/vcsaCliInstaller-2019-01-04-05-32-jwbBqK/vcsa-cli-installer-metadata.json
+The vCenter Server Appliance installer status file:
+/tmp/vcsaCliInstaller-2019-01-04-05-32-jwbBqK/vcsa-cli-installer-status.json The
+generated template file:
+/tmp/vcsaCliInstaller-2019-01-04-05-32-jwbBqK/generated_install.json
+Run the installer with "-v" or "--verbose" to log detailed information
+Execution Details:
+[1] Result and Log File Information
+[2] Template Syntax Validation
+[3] Template Verification
+[4] Gather Requirements
+[5] Prechecks
+[6] OVF Tool Parameter Verification
+=========== [1] Result and Log File Information started at 05:37:15 ===========
+Following result and log files will be generated...
+The vCenter Server Appliance installer result file:
+/tmp/vcsaCliInstaller-2019-01-04-05-37-gVcmrL/vcsa-cli-installer.json The
+vCenter Server Appliance installer log file:
+/tmp/vcsaCliInstaller-2019-01-04-05-37-gVcmrL/vcsa-cli-installer.log The vCenter
+Server Appliance installer metadata file:
+/tmp/vcsaCliInstaller-2019-01-04-05-37-gVcmrL/vcsa-cli-installer-metadata.json
+The vCenter Server Appliance installer status file:
+/tmp/vcsaCliInstaller-2019-01-04-05-37-gVcmrL/vcsa-cli-installer-status.json The
+generated template file:
+/tmp/vcsaCliInstaller-2019-01-04-05-37-gVcmrL/generated_install.json
+============== [2] Template Syntax Validation started at 05:37:15 ==============
+Validating json template syntax...
+CEIP is not enabled because the template key 'ceip.enabled' in section 'ceip',
+subsection 'settings' was set to 'false'.
+Template syntax validation completed successfully.
+================ [3] Template Verification started at 05:37:15 ================
+Verifying template...
+Template verification completed successfully.
+=================================== 05:37:15 ===================================
+Starting vCenter Server Appliance installer to deploy "vCenter-6.5-temp"...
+This appliance is a vCenter Server instance with an embedded Platform Services
+Controller.
+================= [4] Gather Requirements started at 05:37:15 =================
+Gathering Requirements...
+Gathering requirements completed successfully.
+=================================== 05:37:15 ===================================
+Generating template...
+====================== [5] Prechecks started at 05:37:15 ======================
+Performing prechecks...
+Check target thumbprint: PASS
+Check target credentials: FAIL
+Check Target vCenter Server appliance name: UNABLE TO CHECK DUE TO PREVIOUS
+FAILURE
+Check system type: UNABLE TO CHECK DUE TO PREVIOUS FAILURE
+Check target ESXi host or vCenter version: UNABLE TO CHECK DUE TO PREVIOUS
+FAILURE
+Check for OVA property availability: PASS
+Check the host's configurations against the vCSA's CPU, memory and datastore
+size requirements: UNABLE TO CHECK DUE TO PREVIOUS FAILURE
+Check VC management status of ESXi containers: UNABLE TO CHECK DUE TO PREVIOUS
+FAILURE
+Check target datastore free space: PASS
+Check Single Sign-On Server identity: PASS
+Check Single Sign-On Server credentials: PASS
+Check whether the Platform Services Controller (PSC) is external: PASS
+
+=================================== 05:37:21 ===================================
+Result and Log File Information...
+The vCenter Server Appliance installer result file:
+/tmp/vcsaCliInstaller-2019-01-04-05-37-gVcmrL/vcsa-cli-installer.json The
+vCenter Server Appliance installer log file:
+/tmp/vcsaCliInstaller-2019-01-04-05-37-gVcmrL/vcsa-cli-installer.log The vCenter
+Server Appliance installer metadata file:
+/tmp/vcsaCliInstaller-2019-01-04-05-37-gVcmrL/vcsa-cli-installer-metadata.json
+The vCenter Server Appliance installer status file:
+/tmp/vcsaCliInstaller-2019-01-04-05-37-gVcmrL/vcsa-cli-installer-status.json The
+generated template file:
+/tmp/vcsaCliInstaller-2019-01-04-05-37-gVcmrL/generated_install.json
+Run the installer with "-v" or "--verbose" to log detailed information
+Execution Details:
+[1] Result and Log File Information
+[2] Template Syntax Validation
+[3] Template Verification
+[4] Gather Requirements
+[5] Prechecks
+[6] OVF Tool Parameter Verification
+=========== [1] Result and Log File Information started at 05:38:09 ===========
+Following result and log files will be generated...
+The vCenter Server Appliance installer result file:
+/tmp/vcsaCliInstaller-2019-01-04-05-38-HePErP/vcsa-cli-installer.json The
+vCenter Server Appliance installer log file:
+/tmp/vcsaCliInstaller-2019-01-04-05-38-HePErP/vcsa-cli-installer.log The vCenter
+Server Appliance installer metadata file:
+/tmp/vcsaCliInstaller-2019-01-04-05-38-HePErP/vcsa-cli-installer-metadata.json
+The vCenter Server Appliance installer status file:
+/tmp/vcsaCliInstaller-2019-01-04-05-38-HePErP/vcsa-cli-installer-status.json The
+generated template file:
+/tmp/vcsaCliInstaller-2019-01-04-05-38-HePErP/generated_install.json
+============== [2] Template Syntax Validation started at 05:38:09 ==============
+Validating json template syntax...
+CEIP is not enabled because the template key 'ceip.enabled' in section 'ceip',
+subsection 'settings' was set to 'false'.
+Template syntax validation completed successfully.
+================ [3] Template Verification started at 05:38:09 ================
+Verifying template...
+Template verification completed successfully.
+=================================== 05:38:09 ===================================
+Starting vCenter Server Appliance installer to deploy "vCenter-6.5-temp"...
+This appliance is a vCenter Server instance with an embedded Platform Services
+Controller.
+================= [4] Gather Requirements started at 05:38:09 =================
+Gathering Requirements...
+Gathering requirements completed successfully.
+=================================== 05:38:09 ===================================
+Generating template...
+====================== [5] Prechecks started at 05:38:09 ======================
+Performing prechecks...
+Check target thumbprint: PASS
+Check target credentials: PASS
+Check Target vCenter Server appliance name: PASS
+Check system type: PASS
+Check target ESXi host or vCenter version: PASS
+Check for OVA property availability: PASS
+Check the host's configurations against the vCSA's CPU, memory and datastore
+size requirements: PASS
+Check VC management status of ESXi containers: PASS
+Check target datastore free space: PASS
+Check Single Sign-On Server identity: PASS
+Check Single Sign-On Server credentials: PASS
+Check whether the Platform Services Controller (PSC) is external: PASS
+
+Basic verification completed successfully.
+=========== [6] OVF Tool Parameter Verification started at 05:38:13 ===========
+Running OVF Tool parameter verification...
+OVF Tool: Opening OVA source:
+/mnt/vcsa/vcsa-cli-installer/lin64/../../vcsa/VMware-vCenter-Server-Appliance-6.5.0.10000-5973321_OVF10.ova
+OVF Tool: Opening VI target: vi://root@10.1.53.17:443/
+OVF Tool: Supported disk provisioning:
+OVF Tool:   monolithicSparse
+OVF Tool:   monolithicFlat
+OVF Tool:   thin
+OVF Tool:   thick
+OVF Tool:   flat
+OVF Tool:   seSparse
+OVF Tool:   eagerZeroedThick
+OVF Tool: Connected networks:
+OVF Tool:   VM Network
+OVF Tool: Deploying to VI: vi://root@10.1.53.17:443/
+OVF Tool: Transfer Completed
+OVF Tool: Completed successfully
+OVF Tool verification completed successfully.
+Verification completed successfully.
+=================================== 05:38:14 ===================================
+Result and Log File Information...
+The vCenter Server Appliance installer result file:
+/tmp/vcsaCliInstaller-2019-01-04-05-38-HePErP/vcsa-cli-installer.json The
+vCenter Server Appliance installer log file:
+/tmp/vcsaCliInstaller-2019-01-04-05-38-HePErP/vcsa-cli-installer.log The vCenter
+Server Appliance installer metadata file:
+/tmp/vcsaCliInstaller-2019-01-04-05-38-HePErP/vcsa-cli-installer-metadata.json
+The vCenter Server Appliance installer status file:
+/tmp/vcsaCliInstaller-2019-01-04-05-38-HePErP/vcsa-cli-installer-status.json The
+generated template file:
+/tmp/vcsaCliInstaller-2019-01-04-05-38-HePErP/generated_install.json
+Run the installer with "-v" or "--verbose" to log detailed information
+Execution Details:
+[1] Result and Log File Information
+[2] Template Syntax Validation
+[3] Template Verification
+[4] Gather Requirements
+[5] Prechecks
+[6] OVF Tool Execution
+[7] Service Installation
+[8] vCenter Service Configuration
+[9] vCenter Server Deployment Summary
+=========== [1] Result and Log File Information started at 05:40:56 ===========
+Following result and log files will be generated...
+The vCenter Server Appliance installer result file:
+/tmp/vcsaCliInstaller-2019-01-04-05-40-b8hGKK/vcsa-cli-installer.json The
+vCenter Server Appliance installer log file:
+/tmp/vcsaCliInstaller-2019-01-04-05-40-b8hGKK/vcsa-cli-installer.log The vCenter
+Server Appliance installer metadata file:
+/tmp/vcsaCliInstaller-2019-01-04-05-40-b8hGKK/vcsa-cli-installer-metadata.json
+The vCenter Server Appliance installer status file:
+/tmp/vcsaCliInstaller-2019-01-04-05-40-b8hGKK/vcsa-cli-installer-status.json The
+generated template file:
+/tmp/vcsaCliInstaller-2019-01-04-05-40-b8hGKK/generated_install.json
+============== [2] Template Syntax Validation started at 05:40:56 ==============
+Validating json template syntax...
+CEIP is not enabled because the template key 'ceip.enabled' in section 'ceip',
+subsection 'settings' was set to 'false'.
+Template syntax validation completed successfully.
+================ [3] Template Verification started at 05:40:56 ================
+Verifying template...
+Template verification completed successfully.
+=================================== 05:40:56 ===================================
+Starting vCenter Server Appliance installer to deploy "vCenter-6.5-temp"...
+This appliance is a vCenter Server instance with an embedded Platform Services
+Controller.
+================= [4] Gather Requirements started at 05:40:56 =================
+Gathering Requirements...
+Gathering requirements completed successfully.
+=================================== 05:40:56 ===================================
+Generating template...
+====================== [5] Prechecks started at 05:40:56 ======================
+Performing prechecks...
+Check target thumbprint: PASS
+Check target credentials: PASS
+Check Target vCenter Server appliance name: PASS
+Check system type: PASS
+Check target ESXi host or vCenter version: PASS
+Check for OVA property availability: PASS
+Check the host's configurations against the vCSA's CPU, memory and datastore
+size requirements: PASS
+Check VC management status of ESXi containers: PASS
+Check target datastore free space: PASS
+Check Single Sign-On Server identity: PASS
+Check Single Sign-On Server credentials: PASS
+Check whether the Platform Services Controller (PSC) is external: PASS
+
+Basic verification completed successfully.
+================== [6] OVF Tool Execution started at 05:40:59 ==================
+Running OVF Tool to deploy the OVF...
+OVF Tool: Opening OVA source:
+/mnt/vcsa/vcsa-cli-installer/lin64/../../vcsa/VMware-vCenter-Server-Appliance-6.5.0.10000-5973321_OVF10.ova
+OVF Tool: Opening VI target: vi://root@10.1.53.17:443/
+OVF Tool: Deploying to VI: vi://root@10.1.53.17:443/
+OVF Tool: Disk progress: 1%OVF Tool: Disk progress: 2%OVF Tool: Disk progress: 3%OVF Tool: Disk progress: 4%OVF Tool: Disk progress: 5%OVF Tool: Disk progress: 6%OVF Tool: Disk progress: 7%OVF Tool: Disk progress: 8%OVF Tool: Disk progress: 9%OVF Tool: Disk progress: 10%OVF Tool: Disk progress: 11%OVF Tool: Disk progress: 12%OVF Tool: Disk progress: 13%OVF Tool: Disk progress: 14%OVF Tool: Disk progress: 15%OVF Tool: Disk progress: 16%OVF Tool: Disk progress: 17%OVF Tool: Disk progress: 18%OVF Tool: Disk progress: 19%OVF Tool: Disk progress: 20%OVF Tool: Disk progress: 21%OVF Tool: Disk progress: 22%OVF Tool: Disk progress: 23%OVF Tool: Disk progress: 24%OVF Tool: Disk progress: 25%OVF Tool: Disk progress: 26%OVF Tool: Disk progress: 27%OVF Tool: Disk progress: 28%OVF Tool: Disk progress: 29%OVF Tool: Disk progress: 30%OVF Tool: Disk progress: 31%OVF Tool: Disk progress: 32%OVF Tool: Disk progress: 33%OVF Tool: Disk progress: 34%OVF Tool: Disk progress: 35%OVF Tool: Disk progress: 36%OVF Tool: Disk progress: 37%OVF Tool: Disk progress: 38%OVF Tool: Disk progress: 39%OVF Tool: Disk progress: 40%OVF Tool: Disk progress: 41%OVF Tool: Disk progress: 42%OVF Tool: Disk progress: 43%OVF Tool: Disk progress: 44%OVF Tool: Disk progress: 45%OVF Tool: Disk progress: 46%OVF Tool: Disk progress: 47%OVF Tool: Disk progress: 48%OVF Tool: Disk progress: 49%OVF Tool: Disk progress: 50%OVF Tool: Disk progress: 51%OVF Tool: Disk progress: 52%OVF Tool: Disk progress: 53%OVF Tool: Disk progress: 54%OVF Tool: Disk progress: 55%OVF Tool: Disk progress: 56%OVF Tool: Disk progress: 57%OVF Tool: Disk progress: 58%OVF Tool: Disk progress: 59%OVF Tool: Disk progress: 60%OVF Tool: Disk progress: 61%OVF Tool: Disk progress: 62%OVF Tool: Disk progress: 63%OVF Tool: Disk progress: 64%OVF Tool: Disk progress: 65%OVF Tool: Disk progress: 66%OVF Tool: Disk progress: 67%OVF Tool: Disk progress: 68%OVF Tool: Disk progress: 69%OVF Tool: Disk progress: 70%OVF Tool: Disk progress: 71%OVF Tool: Disk progress: 72%OVF Tool: Disk progress: 73%OVF Tool: Disk progress: 74%OVF Tool: Disk progress: 75%OVF Tool: Disk progress: 76%OVF Tool: Disk progress: 77%OVF Tool: Disk progress: 78%OVF Tool: Disk progress: 79%OVF Tool: Disk progress: 80%OVF Tool: Disk progress: 81%OVF Tool: Disk progress: 82%OVF Tool: Disk progress: 83%OVF Tool: Disk progress: 84%OVF Tool: Disk progress: 85%OVF Tool: Disk progress: 86%OVF Tool: Disk progress: 87%OVF Tool: Disk progress: 88%OVF Tool: Disk progress: 89%OVF Tool: Disk progress: 90%OVF Tool: Disk progress: 91%OVF Tool: Disk progress: 92%OVF Tool: Disk progress: 93%OVF Tool: Disk progress: 94%OVF Tool: Disk progress: 95%OVF Tool: Disk progress: 96%OVF Tool: Disk progress: 97%OVF Tool: Disk progress: 98%OVF Tool: Disk progress: 99%
+OVF Tool: Transfer Completed
+OVF Tool: Powering on VM: vCenter-6.5-temp
+OVF Tool: Task progress: 0%OVF Tool: Task progress: 24%OVF Tool: Task progress: 50%OVF Tool: Task progress: 71%
+OVF Tool: Task Completed
+OVF Tool: Completed successfully
+================= [7] Service Installation started at 05:45:18 =================
+Installing services...
+Gathering VC support log bundle. This can take a few minutes.
+=================================== 06:42:31 ===================================
+Result and Log File Information...
+The vCenter Server Appliance installer result file:
+/tmp/vcsaCliInstaller-2019-01-04-05-40-b8hGKK/vcsa-cli-installer.json The
+vCenter Server Appliance installer log file:
+/tmp/vcsaCliInstaller-2019-01-04-05-40-b8hGKK/vcsa-cli-installer.log The vCenter
+Server Appliance installer metadata file:
+/tmp/vcsaCliInstaller-2019-01-04-05-40-b8hGKK/vcsa-cli-installer-metadata.json
+The vCenter Server Appliance installer status file:
+/tmp/vcsaCliInstaller-2019-01-04-05-40-b8hGKK/vcsa-cli-installer-status.json The
+generated template file:
+/tmp/vcsaCliInstaller-2019-01-04-05-40-b8hGKK/generated_install.json
+Run the installer with "-v" or "--verbose" to log detailed information
+Execution Details:
+[1] Result and Log File Information
+[2] Template Syntax Validation
+[3] Template Verification
+[4] Gather Requirements
+[5] Prechecks
+[6] OVF Tool Execution
+[7] Service Installation
+[8] vCenter Service Configuration
+[9] vCenter Server Deployment Summary
+=========== [1] Result and Log File Information started at 14:45:34 ===========
+Following result and log files will be generated...
+The vCenter Server Appliance installer result file:
+/tmp/vcsaCliInstaller-2019-01-04-14-45-1cQ7dY/vcsa-cli-installer.json The
+vCenter Server Appliance installer log file:
+/tmp/vcsaCliInstaller-2019-01-04-14-45-1cQ7dY/vcsa-cli-installer.log The vCenter
+Server Appliance installer metadata file:
+/tmp/vcsaCliInstaller-2019-01-04-14-45-1cQ7dY/vcsa-cli-installer-metadata.json
+The vCenter Server Appliance installer status file:
+/tmp/vcsaCliInstaller-2019-01-04-14-45-1cQ7dY/vcsa-cli-installer-status.json The
+generated template file:
+/tmp/vcsaCliInstaller-2019-01-04-14-45-1cQ7dY/generated_install.json
+============== [2] Template Syntax Validation started at 14:45:34 ==============
+Validating json template syntax...
+CEIP is not enabled because the template key 'ceip.enabled' in section 'ceip',
+subsection 'settings' was set to 'false'.
+Template syntax validation completed successfully.
+================ [3] Template Verification started at 14:45:34 ================
+Verifying template...
+Template verification completed successfully.
+=================================== 14:45:34 ===================================
+Starting vCenter Server Appliance installer to deploy "vCenter-6.5"...
+This appliance is a vCenter Server instance with an embedded Platform Services
+Controller.
+================= [4] Gather Requirements started at 14:45:34 =================
+Gathering Requirements...
+Gathering requirements completed successfully.
+=================================== 14:45:34 ===================================
+Generating template...
+====================== [5] Prechecks started at 14:45:34 ======================
+Performing prechecks...
+Check target thumbprint: PASS
+Check target credentials: PASS
+Check Target vCenter Server appliance name: PASS
+Check system type: PASS
+Check target ESXi host or vCenter version: PASS
+Check for OVA property availability: PASS
+Check the host's configurations against the vCSA's CPU, memory and datastore
+size requirements: PASS
+Check VC management status of ESXi containers: PASS
+Check target datastore free space: PASS
+Check Single Sign-On Server identity: PASS
+Check Single Sign-On Server credentials: PASS
+Check whether the Single Sign-On Server is valid for the install type: PASS
+
+Basic verification completed successfully.
+================== [6] OVF Tool Execution started at 14:45:37 ==================
+Running OVF Tool to deploy the OVF...
+OVF Tool: Opening OVA source:
+/mnt/vcsa/vcsa-cli-installer/lin64/../../vcsa/VMware-vCenter-Server-Appliance-6.5.0.22000-9451637_OVF10.ova
+OVF Tool: Opening VI target: vi://root@10.1.53.17:443/
+OVF Tool: Deploying to VI: vi://root@10.1.53.17:443/
+OVF Tool: Disk progress: 1%OVF Tool: Disk progress: 2%OVF Tool: Disk progress: 3%OVF Tool: Disk progress: 4%OVF Tool: Disk progress: 5%OVF Tool: Disk progress: 6%OVF Tool: Disk progress: 7%OVF Tool: Disk progress: 8%OVF Tool: Disk progress: 9%OVF Tool: Disk progress: 10%OVF Tool: Disk progress: 11%OVF Tool: Disk progress: 12%OVF Tool: Disk progress: 13%OVF Tool: Disk progress: 14%OVF Tool: Disk progress: 15%OVF Tool: Disk progress: 16%OVF Tool: Disk progress: 17%OVF Tool: Disk progress: 18%OVF Tool: Disk progress: 19%OVF Tool: Disk progress: 20%OVF Tool: Disk progress: 21%OVF Tool: Disk progress: 22%OVF Tool: Disk progress: 23%OVF Tool: Disk progress: 24%OVF Tool: Disk progress: 25%OVF Tool: Disk progress: 26%OVF Tool: Disk progress: 27%OVF Tool: Disk progress: 28%OVF Tool: Disk progress: 29%OVF Tool: Disk progress: 30%OVF Tool: Disk progress: 31%OVF Tool: Disk progress: 32%OVF Tool: Disk progress: 33%OVF Tool: Disk progress: 34%OVF Tool: Disk progress: 35%OVF Tool: Disk progress: 36%OVF Tool: Disk progress: 37%OVF Tool: Disk progress: 38%OVF Tool: Disk progress: 39%OVF Tool: Disk progress: 40%OVF Tool: Disk progress: 41%OVF Tool: Disk progress: 42%OVF Tool: Disk progress: 43%OVF Tool: Disk progress: 44%OVF Tool: Disk progress: 45%OVF Tool: Disk progress: 46%OVF Tool: Disk progress: 47%OVF Tool: Disk progress: 48%OVF Tool: Disk progress: 49%OVF Tool: Disk progress: 50%OVF Tool: Disk progress: 51%OVF Tool: Disk progress: 52%OVF Tool: Disk progress: 53%OVF Tool: Disk progress: 54%OVF Tool: Disk progress: 55%OVF Tool: Disk progress: 56%OVF Tool: Disk progress: 57%OVF Tool: Disk progress: 58%OVF Tool: Disk progress: 59%OVF Tool: Disk progress: 60%OVF Tool: Disk progress: 61%OVF Tool: Disk progress: 62%OVF Tool: Disk progress: 63%OVF Tool: Disk progress: 64%OVF Tool: Disk progress: 65%OVF Tool: Disk progress: 66%OVF Tool: Disk progress: 67%OVF Tool: Disk progress: 68%OVF Tool: Disk progress: 69%OVF Tool: Disk progress: 70%OVF Tool: Disk progress: 71%OVF Tool: Disk progress: 72%OVF Tool: Disk progress: 73%OVF Tool: Disk progress: 74%OVF Tool: Disk progress: 75%OVF Tool: Disk progress: 76%OVF Tool: Disk progress: 77%OVF Tool: Disk progress: 78%OVF Tool: Disk progress: 79%OVF Tool: Disk progress: 80%OVF Tool: Disk progress: 81%OVF Tool: Disk progress: 82%OVF Tool: Disk progress: 83%OVF Tool: Disk progress: 84%OVF Tool: Disk progress: 85%OVF Tool: Disk progress: 86%OVF Tool: Disk progress: 87%OVF Tool: Disk progress: 88%OVF Tool: Disk progress: 89%OVF Tool: Disk progress: 90%OVF Tool: Disk progress: 91%OVF Tool: Disk progress: 92%OVF Tool: Disk progress: 93%OVF Tool: Disk progress: 94%OVF Tool: Disk progress: 95%OVF Tool: Disk progress: 96%OVF Tool: Disk progress: 97%OVF Tool: Disk progress: 98%OVF Tool: Disk progress: 99%
+OVF Tool: Transfer Completed
+OVF Tool: Powering on VM: vCenter-6.5
+OVF Tool: Task progress: 0%OVF Tool: Task progress: 24%OVF Tool: Task progress: 47%OVF Tool: Task progress: 50%OVF Tool: Task progress: 59%
+OVF Tool: Task Completed
+OVF Tool: Completed successfully
+================= [7] Service Installation started at 14:49:50 =================
+Installing services...
+=================================== 15:37:57 ===================================
+Result and Log File Information...
+The vCenter Server Appliance installer result file:
+/tmp/vcsaCliInstaller-2019-01-04-14-45-1cQ7dY/vcsa-cli-installer.json The
+vCenter Server Appliance installer log file:
+/tmp/vcsaCliInstaller-2019-01-04-14-45-1cQ7dY/vcsa-cli-installer.log The vCenter
+Server Appliance installer metadata file:
+/tmp/vcsaCliInstaller-2019-01-04-14-45-1cQ7dY/vcsa-cli-installer-metadata.json
+The vCenter Server Appliance installer status file:
+/tmp/vcsaCliInstaller-2019-01-04-14-45-1cQ7dY/vcsa-cli-installer-status.json The
+generated template file:
+/tmp/vcsaCliInstaller-2019-01-04-14-45-1cQ7dY/generated_install.json
+Run the installer with "-v" or "--verbose" to log detailed information
+Execution Details:
+[1] Result and Log File Information
+[2] Template Syntax Validation
+[3] Template Verification
+[4] Gather Requirements
+[5] Prechecks
+[6] OVF Tool Execution
+[7] Service Installation
+[8] vCenter Service Configuration
+[9] vCenter Server Deployment Summary
+=========== [1] Result and Log File Information started at 19:34:17 ===========
+Following result and log files will be generated...
+The vCenter Server Appliance installer result file:
+/tmp/vcsaCliInstaller-2019-01-04-19-34-lGi8xE/vcsa-cli-installer.json The
+vCenter Server Appliance installer log file:
+/tmp/vcsaCliInstaller-2019-01-04-19-34-lGi8xE/vcsa-cli-installer.log The vCenter
+Server Appliance installer metadata file:
+/tmp/vcsaCliInstaller-2019-01-04-19-34-lGi8xE/vcsa-cli-installer-metadata.json
+The vCenter Server Appliance installer status file:
+/tmp/vcsaCliInstaller-2019-01-04-19-34-lGi8xE/vcsa-cli-installer-status.json The
+generated template file:
+/tmp/vcsaCliInstaller-2019-01-04-19-34-lGi8xE/generated_install.json
+============== [2] Template Syntax Validation started at 19:34:17 ==============
+Validating json template syntax...
+CEIP is not enabled because the template key 'ceip.enabled' in section 'ceip',
+subsection 'settings' was set to 'false'.
+Template syntax validation completed successfully.
+================ [3] Template Verification started at 19:34:17 ================
+Verifying template...
+Template verification completed successfully.
+=================================== 19:34:17 ===================================
+Starting vCenter Server Appliance installer to deploy "vCenter-6.5"...
+This appliance is a vCenter Server instance with an embedded Platform Services
+Controller.
+================= [4] Gather Requirements started at 19:34:17 =================
+Gathering Requirements...
+Gathering requirements completed successfully.
+=================================== 19:34:17 ===================================
+Generating template...
+====================== [5] Prechecks started at 19:34:17 ======================
+Performing prechecks...
+Check target thumbprint: PASS
+Check target credentials: PASS
+Check Target vCenter Server appliance name: PASS
+Check system type: PASS
+Check target ESXi host or vCenter version: PASS
+Check for OVA property availability: PASS
+Check the host's configurations against the vCSA's CPU, memory and datastore
+size requirements: PASS
+Check VC management status of ESXi containers: PASS
+Check target datastore free space: PASS
+Check Single Sign-On Server identity: PASS
+Check Single Sign-On Server credentials: PASS
+Check whether the Single Sign-On Server is valid for the install type: PASS
+
+Basic verification completed successfully.
+================== [6] OVF Tool Execution started at 19:34:20 ==================
+Running OVF Tool to deploy the OVF...
+OVF Tool: Opening OVA source:
+/mnt/vcsa/vcsa-cli-installer/lin64/../../vcsa/VMware-vCenter-Server-Appliance-6.5.0.22000-9451637_OVF10.ova
+OVF Tool: Opening VI target: vi://root@10.1.53.17:443/
+OVF Tool: Deploying to VI: vi://root@10.1.53.17:443/
+OVF Tool: Disk progress: 1%OVF Tool: Disk progress: 2%OVF Tool: Disk progress: 3%OVF Tool: Disk progress: 4%OVF Tool: Disk progress: 5%OVF Tool: Disk progress: 6%OVF Tool: Disk progress: 7%OVF Tool: Disk progress: 8%OVF Tool: Disk progress: 9%OVF Tool: Disk progress: 10%OVF Tool: Disk progress: 11%OVF Tool: Disk progress: 12%OVF Tool: Disk progress: 13%OVF Tool: Disk progress: 14%OVF Tool: Disk progress: 15%OVF Tool: Disk progress: 16%OVF Tool: Disk progress: 17%OVF Tool: Disk progress: 18%OVF Tool: Disk progress: 19%OVF Tool: Disk progress: 20%OVF Tool: Disk progress: 21%OVF Tool: Disk progress: 22%OVF Tool: Disk progress: 23%OVF Tool: Disk progress: 24%OVF Tool: Disk progress: 25%OVF Tool: Disk progress: 26%OVF Tool: Disk progress: 27%OVF Tool: Disk progress: 28%OVF Tool: Disk progress: 29%OVF Tool: Disk progress: 30%OVF Tool: Disk progress: 31%OVF Tool: Disk progress: 32%OVF Tool: Disk progress: 33%OVF Tool: Disk progress: 34%OVF Tool: Disk progress: 35%OVF Tool: Disk progress: 36%OVF Tool: Disk progress: 37%OVF Tool: Disk progress: 38%OVF Tool: Disk progress: 39%OVF Tool: Disk progress: 40%OVF Tool: Disk progress: 41%OVF Tool: Disk progress: 42%OVF Tool: Disk progress: 43%OVF Tool: Disk progress: 44%OVF Tool: Disk progress: 45%OVF Tool: Disk progress: 46%OVF Tool: Disk progress: 47%OVF Tool: Disk progress: 48%OVF Tool: Disk progress: 49%OVF Tool: Disk progress: 50%OVF Tool: Disk progress: 51%OVF Tool: Disk progress: 52%OVF Tool: Disk progress: 53%OVF Tool: Disk progress: 54%OVF Tool: Disk progress: 55%OVF Tool: Disk progress: 56%OVF Tool: Disk progress: 57%OVF Tool: Disk progress: 58%OVF Tool: Disk progress: 59%OVF Tool: Disk progress: 60%OVF Tool: Disk progress: 61%OVF Tool: Disk progress: 62%OVF Tool: Disk progress: 63%OVF Tool: Disk progress: 64%OVF Tool: Disk progress: 65%OVF Tool: Disk progress: 66%OVF Tool: Disk progress: 67%OVF Tool: Disk progress: 68%OVF Tool: Disk progress: 69%OVF Tool: Disk progress: 70%OVF Tool: Disk progress: 71%OVF Tool: Disk progress: 72%OVF Tool: Disk progress: 73%OVF Tool: Disk progress: 74%OVF Tool: Disk progress: 75%OVF Tool: Disk progress: 76%OVF Tool: Disk progress: 77%OVF Tool: Disk progress: 78%OVF Tool: Disk progress: 79%OVF Tool: Disk progress: 80%OVF Tool: Disk progress: 81%OVF Tool: Disk progress: 82%OVF Tool: Disk progress: 83%OVF Tool: Disk progress: 84%OVF Tool: Disk progress: 85%OVF Tool: Disk progress: 86%OVF Tool: Disk progress: 87%OVF Tool: Disk progress: 88%OVF Tool: Disk progress: 89%OVF Tool: Disk progress: 90%OVF Tool: Disk progress: 91%OVF Tool: Disk progress: 92%OVF Tool: Disk progress: 93%OVF Tool: Disk progress: 94%OVF Tool: Disk progress: 95%OVF Tool: Disk progress: 96%OVF Tool: Disk progress: 97%OVF Tool: Disk progress: 98%OVF Tool: Disk progress: 99%
+OVF Tool: Transfer Completed
+OVF Tool: Powering on VM: vCenter-6.5
+OVF Tool: Task progress: 0%OVF Tool: Task progress: 24%OVF Tool: Task progress: 50%OVF Tool: Task progress: 71%
+OVF Tool: Task Completed
+OVF Tool: Completed successfully
+================= [7] Service Installation started at 19:38:31 =================
+Installing services...
+Service Installation: Progress: 5% Setting up storage
+Service Installation: Progress: 50% Installing RPMs
+Service Installation: Progress: 51% Installed
+VMware-jmemtool-6.5.0-9451637.x86_64.rpm
+Service Installation: Progress: 54% Installed
+VMware-unixODBC-2.3.2.vmw.2-6.5.0.x86_64.rpm
+Service Installation: Progress: 56% Installed
+vmware-directory-client-6.5.0.2802-8157620.x86_64.rpm
+Service Installation: Progress: 59% Installed
+vmware-certificate-server-6.5.0.3536-8157625.x86_64.rpm
+Service Installation: Progress: 60% Installed
+vmware-identity-sts-6.5.0.3676-8157623.noarch.rpm
+Service Installation: Progress: 62% Installed
+VMware-rhttpproxy-6.5.0-9451637.x86_64.rpm
+Service Installation: Progress: 64% Installed
+VMware-cis-license-6.5.0-8168009.x86_64.rpm
+Service Installation: Progress: 68% Installed
+VMware-applmon-cloudvm-6.5.0-9451637.x86_64.rpm
+Service Installation: Progress: 71% Installed
+VMware-Postgres-9.4.15.0-7748409.x86_64.rpm
+Service Installation: Progress: 76% Installed
+VMware-Postgres-client-jdbc-9.4.15.0-7748409.noarch.rpm
+Service Installation: Progress: 78% Installed
+VMware-mbcs-6.5.0-9451637.x86_64.rpm
+Service Installation: Progress: 80% Installed
+VMware-vpxd-vctop-6.5.0-9451637.x86_64.rpm
+Service Installation: Progress: 80% Installed
+vmware-virgo-6.5.0-9451637.x86_64.rpm
+Service Installation: Progress: 82% Installed
+vmware-vmrc-6.5.0-9451637.x86_64.rpm
+Service Installation: Progress: 82% Installed
+VMware-content-library-6.5.0-9451637.x86_64.rpm
+Service Installation: Progress: 84% Installed
+vmware-imagebuilder-6.5.0-9451637.x86_64.rpm
+Service Installation: Progress: 84% Installed ipxe-1.0.0-1.4446055.vmw.i686.rpm
+Service Installation: Progress: 86% Installed
+VMware-sps-6.5.0-9451637.x86_64.rpm
+Service Installation: Progress: 86% Installed
+VMware-UpdateManager-6.5.0-8305924.x86_64.rpm
+Service Installation: Progress: 88% Installed
+vmware-cam-6.5.0.467-8159194.x86_64.rpm
+Service Installation: Progress: 90% Installed
+vmware-vsm-6.5.0-9451637.x86_64.rpm
+Service Installation: Progress: 90% Installed
+vsphere-client-6.5.0-9451637.noarch.rpm
+Service Installation: Progress: 91% Installed
+VMware-perfcharts-6.5.0-9451637.x86_64.rpm
+Service Installation: Progress: 95% Configuring the machine
+vCenter Server Service installations succeeded.
+============ [8] vCenter Service Configuration started at 19:58:26 ============
+Configuring services for first time use...
+vCenter Service Configuration: Progress: 2% Starting VMware Authentication
+Framework...
+vCenter Service Configuration: Progress: 5% Starting VMware Identity Management
+Service...
+vCenter Service Configuration: Progress: 8% Starting VMware Single Sign-On User
+Creation...
+vCenter Service Configuration: Progress: 17% Starting VMware Component
+Manager...
+vCenter Service Configuration: Progress: 20% Starting VMware License Service...
+vCenter Service Configuration: Progress: 22% Starting VMware Platform Services
+Controller Client...
+vCenter Service Configuration: Progress: 25% Starting VMware Service Control
+Agent...
+vCenter Service Configuration: Progress: 28% Starting VMware vAPI Endpoint...
+vCenter Service Configuration: Progress: 31% Starting VMware Service Lifecycle
+Manager API...
+vCenter Service Configuration: Progress: 34% Starting VMware Appliance
+Management Service...
+vCenter Service Configuration: Progress: 40% Starting VMware Platform Services
+Controller Health Monitor...
+vCenter Service Configuration: Progress: 45% Starting VMware Postgres...
+vCenter Service Configuration: Progress: 48% Starting dbconfig...
+vCenter Service Configuration: Progress: 51% Starting VMware vCenter-Services...
+vCenter Service Configuration: Progress: 54% Starting VMware Message Bus
+Configuration Service...
+vCenter Service Configuration: Progress: 58% Starting VMware vSphere Web
+Client...
+vCenter Service Configuration: Progress: 59% Starting VMware vSphere Web
+Client...
+vCenter Service Configuration: Progress: 61% Starting VMware vSphere Client...
+vCenter Service Configuration: Progress: 62% Starting VMware vCenter Server...
+vCenter Service Configuration: Progress: 65% Starting VMware Content Library
+Service...
+vCenter Service Configuration: Progress: 68% Starting VMware ESX Agent
+Manager...
+vCenter Service Configuration: Progress: 71% Starting VMware vSphere Auto Deploy
+Waiter...
+vCenter Service Configuration: Progress: 74% Starting VMware vSphere
+Profile-Driven Storage Service...
+vCenter Service Configuration: Progress: 77% Starting VMware Update Manager...
+vCenter Service Configuration: Progress: 80% Starting VMware vCenter High
+Availability...
+vCenter Service Configuration: Progress: 85% Starting VMware VSAN Health
+Service...
+vCenter Service Configuration: Progress: 88% Starting VMware vService Manager...
+vCenter Service Configuration: Progress: 97% Starting VMware Performance
+Charts...
+First time configuration succeeded.
+========== [9] vCenter Server Deployment Summary started at 20:08:55 ==========
+Deployment Summary
+=================================== 20:08:55 ===================================
+vCenter Server Appliance installer finished deploying "vCenter-6.5".
+This appliance is a vCenter Server instance with an embedded Platform Services
+Controller.
+    System Name: 10.1.53.83
+    Log in as: Administrator@vsphere.local
+Finished successfully.
+=================================== 20:08:55 ===================================
+Result and Log File Information...
+The vCenter Server Appliance installer result file:
+/tmp/vcsaCliInstaller-2019-01-04-19-34-lGi8xE/vcsa-cli-installer.json The
+vCenter Server Appliance installer log file:
+/tmp/vcsaCliInstaller-2019-01-04-19-34-lGi8xE/vcsa-cli-installer.log The vCenter
+Server Appliance installer metadata file:
+/tmp/vcsaCliInstaller-2019-01-04-19-34-lGi8xE/vcsa-cli-installer-metadata.json
+The vCenter Server Appliance installer status file:
+/tmp/vcsaCliInstaller-2019-01-04-19-34-lGi8xE/vcsa-cli-installer-status.json The
+generated template file:
+/tmp/vcsaCliInstaller-2019-01-04-19-34-lGi8xE/generated_install.json
+Run the installer with "-v" or "--verbose" to log detailed information
+Execution Details:
+[1] Result and Log File Information
+[2] Template Syntax Validation
+[3] Template Verification
+[4] Gather Requirements
+[5] Prechecks
+[6] OVF Tool Execution
+[7] Service Installation
+[8] vCenter Service Configuration
+[9] vCenter Server Deployment Summary
+=========== [1] Result and Log File Information started at 11:59:01 ===========
+Following result and log files will be generated...
+The vCenter Server Appliance installer result file:
+/tmp/vcsaCliInstaller-2019-01-05-11-59-hnd3Lt/vcsa-cli-installer.json The
+vCenter Server Appliance installer log file:
+/tmp/vcsaCliInstaller-2019-01-05-11-59-hnd3Lt/vcsa-cli-installer.log The vCenter
+Server Appliance installer metadata file:
+/tmp/vcsaCliInstaller-2019-01-05-11-59-hnd3Lt/vcsa-cli-installer-metadata.json
+The vCenter Server Appliance installer status file:
+/tmp/vcsaCliInstaller-2019-01-05-11-59-hnd3Lt/vcsa-cli-installer-status.json The
+generated template file:
+/tmp/vcsaCliInstaller-2019-01-05-11-59-hnd3Lt/generated_install.json
+============== [2] Template Syntax Validation started at 11:59:01 ==============
+Validating json template syntax...
+CEIP is not enabled because the template key 'ceip.enabled' in section 'ceip',
+subsection 'settings' was set to 'false'.
+Template syntax validation completed successfully.
+================ [3] Template Verification started at 11:59:01 ================
+Verifying template...
+Template verification completed successfully.
+=================================== 11:59:01 ===================================
+Starting vCenter Server Appliance installer to deploy "vcenter-6.5.0-9451637"...
+This appliance is a vCenter Server instance with an embedded Platform Services
+Controller.
+================= [4] Gather Requirements started at 11:59:01 =================
+Gathering Requirements...
+Gathering requirements completed successfully.
+=================================== 11:59:01 ===================================
+Generating template...
+====================== [5] Prechecks started at 11:59:01 ======================
+Performing prechecks...
+Check target thumbprint: PASS
+Check target credentials: PASS
+Check Target vCenter Server appliance name: PASS
+Check system type: PASS
+Check target ESXi host or vCenter version: PASS
+Check for OVA property availability: PASS
+Check the host's configurations against the vCSA's CPU, memory and datastore
+size requirements: PASS
+Check VC management status of ESXi containers: PASS
+Check target datastore free space: PASS
+Check Single Sign-On Server identity: PASS
+Check Single Sign-On Server credentials: PASS
+Check whether the Single Sign-On Server is valid for the install type: PASS
+
+Basic verification completed successfully.
+================== [6] OVF Tool Execution started at 11:59:05 ==================
+Running OVF Tool to deploy the OVF...
+OVF Tool: Opening OVA source:
+/mnt/vcsa/vcsa-cli-installer/lin64/../../vcsa/VMware-vCenter-Server-Appliance-6.5.0.22000-9451637_OVF10.ova
+OVF Tool: Opening VI target: vi://root@10.1.53.17:443/
+OVF Tool: Deploying to VI: vi://root@10.1.53.17:443/
+OVF Tool: Disk progress: 1%OVF Tool: Disk progress: 2%OVF Tool: Disk progress: 3%OVF Tool: Disk progress: 4%OVF Tool: Disk progress: 5%OVF Tool: Disk progress: 6%OVF Tool: Disk progress: 7%OVF Tool: Disk progress: 8%OVF Tool: Disk progress: 9%OVF Tool: Disk progress: 10%OVF Tool: Disk progress: 11%OVF Tool: Disk progress: 12%OVF Tool: Disk progress: 13%OVF Tool: Disk progress: 14%OVF Tool: Disk progress: 15%OVF Tool: Disk progress: 16%OVF Tool: Disk progress: 17%OVF Tool: Disk progress: 18%OVF Tool: Disk progress: 19%OVF Tool: Disk progress: 20%OVF Tool: Disk progress: 21%OVF Tool: Disk progress: 22%OVF Tool: Disk progress: 23%OVF Tool: Disk progress: 24%OVF Tool: Disk progress: 25%OVF Tool: Disk progress: 26%OVF Tool: Disk progress: 27%OVF Tool: Disk progress: 28%OVF Tool: Disk progress: 29%OVF Tool: Disk progress: 30%OVF Tool: Disk progress: 31%OVF Tool: Disk progress: 32%OVF Tool: Disk progress: 33%OVF Tool: Disk progress: 34%OVF Tool: Disk progress: 35%OVF Tool: Disk progress: 36%OVF Tool: Disk progress: 37%OVF Tool: Disk progress: 38%OVF Tool: Disk progress: 39%OVF Tool: Disk progress: 40%OVF Tool: Disk progress: 41%OVF Tool: Disk progress: 42%OVF Tool: Disk progress: 43%OVF Tool: Disk progress: 44%OVF Tool: Disk progress: 45%OVF Tool: Disk progress: 46%OVF Tool: Disk progress: 47%OVF Tool: Disk progress: 48%OVF Tool: Disk progress: 49%OVF Tool: Disk progress: 50%OVF Tool: Disk progress: 51%OVF Tool: Disk progress: 52%OVF Tool: Disk progress: 53%OVF Tool: Disk progress: 54%OVF Tool: Disk progress: 55%OVF Tool: Disk progress: 56%OVF Tool: Disk progress: 57%OVF Tool: Disk progress: 58%OVF Tool: Disk progress: 59%OVF Tool: Disk progress: 60%OVF Tool: Disk progress: 61%OVF Tool: Disk progress: 62%OVF Tool: Disk progress: 63%OVF Tool: Disk progress: 64%OVF Tool: Disk progress: 65%OVF Tool: Disk progress: 66%OVF Tool: Disk progress: 67%OVF Tool: Disk progress: 68%OVF Tool: Disk progress: 69%OVF Tool: Disk progress: 70%OVF Tool: Disk progress: 71%OVF Tool: Disk progress: 72%OVF Tool: Disk progress: 73%OVF Tool: Disk progress: 74%OVF Tool: Disk progress: 75%OVF Tool: Disk progress: 76%OVF Tool: Disk progress: 77%OVF Tool: Disk progress: 78%OVF Tool: Disk progress: 79%OVF Tool: Disk progress: 80%OVF Tool: Disk progress: 81%OVF Tool: Disk progress: 82%OVF Tool: Disk progress: 83%OVF Tool: Disk progress: 84%OVF Tool: Disk progress: 85%OVF Tool: Disk progress: 86%OVF Tool: Disk progress: 87%OVF Tool: Disk progress: 88%OVF Tool: Disk progress: 89%OVF Tool: Disk progress: 90%OVF Tool: Disk progress: 91%OVF Tool: Disk progress: 92%OVF Tool: Disk progress: 93%OVF Tool: Disk progress: 94%OVF Tool: Disk progress: 95%OVF Tool: Disk progress: 96%OVF Tool: Disk progress: 97%OVF Tool: Disk progress: 98%OVF Tool: Disk progress: 99%
+OVF Tool: Transfer Completed
+OVF Tool: Powering on VM: vcenter-6.5.0-9451637
+OVF Tool: Task progress: 0%OVF Tool: Task progress: 24%OVF Tool: Task progress: 25%OVF Tool: Task progress: 50%OVF Tool: Task progress: 71%
+OVF Tool: Task Completed
+OVF Tool: Completed successfully
+================= [7] Service Installation started at 12:03:35 =================
+Installing services...
+Service Installation: Progress: 5% Setting up storage
+Service Installation: Progress: 50% Installing RPMs
+Service Installation: Progress: 51% Installed
+VMware-jmemtool-6.5.0-9451637.x86_64.rpm
+Service Installation: Progress: 54% Installed
+VMware-unixODBC-2.3.2.vmw.2-6.5.0.x86_64.rpm
+Service Installation: Progress: 55% Installed
+vmware-lwis-6.2.0-7791794.x86_64.rpm
+Service Installation: Progress: 56% Installed
+vmware-directory-client-6.5.0.2802-8157620.x86_64.rpm
+Service Installation: Progress: 59% Installed
+vmware-certificate-server-6.5.0.3536-8157625.x86_64.rpm
+Service Installation: Progress: 60% Installed
+vmware-dns-client-1.0.0-8157624.x86_64.rpm
+Service Installation: Progress: 62% Installed
+VMware-rhttpproxy-6.5.0-9451637.x86_64.rpm
+Service Installation: Progress: 64% Installed
+VMware-cis-license-6.5.0-8168009.x86_64.rpm
+Service Installation: Progress: 68% Installed
+VMware-applmon-cloudvm-6.5.0-9451637.x86_64.rpm
+Service Installation: Progress: 71% Installed
+VMware-Postgres-9.4.15.0-7748409.x86_64.rpm
+Service Installation: Progress: 76% Installed
+VMware-Postgres-client-jdbc-9.4.15.0-7748409.noarch.rpm
+Service Installation: Progress: 78% Installed
+VMware-mbcs-6.5.0-9451637.x86_64.rpm
+Service Installation: Progress: 80% Installed
+vmware-virgo-6.5.0-9451637.x86_64.rpm
+Service Installation: Progress: 81% Installed
+VMware-cloudvm-vimtop-6.5.0-9451637.x86_64.rpm
+Service Installation: Progress: 82% Installed
+vmware-vmrc-6.5.0-9451637.x86_64.rpm
+Service Installation: Progress: 84% Installed
+vmware-imagebuilder-6.5.0-9451637.x86_64.rpm
+Service Installation: Progress: 84% Installed ipxe-1.0.0-1.4446055.vmw.i686.rpm
+Service Installation: Progress: 85% Installed
+vmware-autodeploy-6.5.0-0.0.9451637.noarch.rpm
+Service Installation: Progress: 86% Installed
+VMware-sps-6.5.0-9451637.x86_64.rpm
+Service Installation: Progress: 86% Installed
+VMware-UpdateManager-6.5.0-8305924.x86_64.rpm
+Service Installation: Progress: 87% Installed
+VMware-vcha-6.5.0-9451637.x86_64.rpm
+Service Installation: Progress: 88% Installed
+vmware-cam-6.5.0.467-8159194.x86_64.rpm
+Service Installation: Progress: 89% Installed
+VMware-vsanmgmt-6.6.1-0.1.9157175.x86_64.rpm
+Service Installation: Progress: 90% Installed
+vmware-vsm-6.5.0-9451637.x86_64.rpm
+Service Installation: Progress: 90% Installed
+vsphere-client-6.5.0-9451637.noarch.rpm
+Service Installation: Progress: 91% Installed
+VMware-perfcharts-6.5.0-9451637.x86_64.rpm
+Service Installation: Progress: 95% Configuring the machine
+vCenter Server Service installations succeeded.
+============ [8] vCenter Service Configuration started at 12:26:56 ============
+Configuring services for first time use...
+vCenter Service Configuration: Progress: 2% Starting VMware Authentication
+Framework...
+vCenter Service Configuration: Progress: 5% Starting VMware Identity Management
+Service...
+vCenter Service Configuration: Progress: 8% Starting VMware Single Sign-On User
+Creation...
+vCenter Service Configuration: Progress: 17% Starting VMware Component
+Manager...
+vCenter Service Configuration: Progress: 20% Starting VMware License Service...
+vCenter Service Configuration: Progress: 25% Starting VMware Service Control
+Agent...
+vCenter Service Configuration: Progress: 28% Starting VMware vAPI Endpoint...
+vCenter Service Configuration: Progress: 31% Starting VMware Service Lifecycle
+Manager API...
+vCenter Service Configuration: Progress: 34% Starting VMware Appliance
+Management Service...
+vCenter Service Configuration: Progress: 45% Starting VMware Postgres...
+vCenter Service Configuration: Progress: 51% Starting VMware vCenter-Services...
+vCenter Service Configuration: Progress: 54% Starting VMware Message Bus
+Configuration Service...
+vCenter Service Configuration: Progress: 57% Starting VMware vSphere Web
+Client...
+vCenter Service Configuration: Progress: 58% Starting VMware vSphere Web
+Client...
+vCenter Service Configuration: Progress: 59% Starting VMware vSphere Web
+Client...
+vCenter Service Configuration: Progress: 61% Starting VMware vSphere Client...
+vCenter Service Configuration: Progress: 62% Starting VMware vCenter Server...
+vCenter Service Configuration: Progress: 65% Starting VMware Content Library
+Service...
+vCenter Service Configuration: Progress: 68% Starting VMware ESX Agent
+Manager...
+vCenter Service Configuration: Progress: 71% Starting VMware vSphere Auto Deploy
+Waiter...
+vCenter Service Configuration: Progress: 74% Starting VMware vSphere
+Profile-Driven Storage Service...
+vCenter Service Configuration: Progress: 77% Starting VMware Update Manager...
+vCenter Service Configuration: Progress: 80% Starting VMware vCenter High
+Availability...
+vCenter Service Configuration: Progress: 85% Starting VMware VSAN Health
+Service...
+vCenter Service Configuration: Progress: 88% Starting VMware vService Manager...
+vCenter Service Configuration: Progress: 91% Starting VMware Image Builder
+Manager...
+vCenter Service Configuration: Progress: 97% Starting VMware Performance
+Charts...
+First time configuration succeeded.
+========== [9] vCenter Server Deployment Summary started at 12:37:36 ==========
+Deployment Summary
+=================================== 12:37:36 ===================================
+vCenter Server Appliance installer finished deploying "vcenter-6.5.0-9451637".
+This appliance is a vCenter Server instance with an embedded Platform Services
+Controller.
+    System Name: 10.1.53.84
+    Log in as: Administrator@vsphere.local
+Finished successfully.
+=================================== 12:37:36 ===================================
+Result and Log File Information...
+The vCenter Server Appliance installer result file:
+/tmp/vcsaCliInstaller-2019-01-05-11-59-hnd3Lt/vcsa-cli-installer.json The
+vCenter Server Appliance installer log file:
+/tmp/vcsaCliInstaller-2019-01-05-11-59-hnd3Lt/vcsa-cli-installer.log The vCenter
+Server Appliance installer metadata file:
+/tmp/vcsaCliInstaller-2019-01-05-11-59-hnd3Lt/vcsa-cli-installer-metadata.json
+The vCenter Server Appliance installer status file:
+/tmp/vcsaCliInstaller-2019-01-05-11-59-hnd3Lt/vcsa-cli-installer-status.json The
+generated template file:
+/tmp/vcsaCliInstaller-2019-01-05-11-59-hnd3Lt/generated_install.json
+Run the installer with "-v" or "--verbose" to log detailed information
+Execution Details:
+[1] Result and Log File Information
+[2] Template Syntax Validation
+[3] Template Verification
+[4] Gather Requirements
+[5] Prechecks
+[6] OVF Tool Execution
+[7] Service Installation
+[8] vCenter Service Configuration
+[9] vCenter Server Deployment Summary
+=========== [1] Result and Log File Information started at 13:28:27 ===========
+Following result and log files will be generated...
+The vCenter Server Appliance installer result file:
+/tmp/vcsaCliInstaller-2019-01-05-13-28-7CorCb/vcsa-cli-installer.json The
+vCenter Server Appliance installer log file:
+/tmp/vcsaCliInstaller-2019-01-05-13-28-7CorCb/vcsa-cli-installer.log The vCenter
+Server Appliance installer metadata file:
+/tmp/vcsaCliInstaller-2019-01-05-13-28-7CorCb/vcsa-cli-installer-metadata.json
+The vCenter Server Appliance installer status file:
+/tmp/vcsaCliInstaller-2019-01-05-13-28-7CorCb/vcsa-cli-installer-status.json The
+generated template file:
+/tmp/vcsaCliInstaller-2019-01-05-13-28-7CorCb/generated_install.json
+============== [2] Template Syntax Validation started at 13:28:27 ==============
+Validating json template syntax...
+CEIP is not enabled because the template key 'ceip.enabled' in section 'ceip',
+subsection 'settings' was set to 'false'.
+Template syntax validation completed successfully.
+================ [3] Template Verification started at 13:28:27 ================
+Verifying template...
+Template verification completed successfully.
+=================================== 13:28:27 ===================================
+Starting vCenter Server Appliance installer to deploy "vcenter-6.5.0-5973321"...
+This appliance is a vCenter Server instance with an embedded Platform Services
+Controller.
+================= [4] Gather Requirements started at 13:28:27 =================
+Gathering Requirements...
+Gathering requirements completed successfully.
+=================================== 13:28:27 ===================================
+Generating template...
+====================== [5] Prechecks started at 13:28:27 ======================
+Performing prechecks...
+Check target thumbprint: PASS
+Check target credentials: PASS
+Check Target vCenter Server appliance name: PASS
+Check system type: PASS
+Check target ESXi host or vCenter version: PASS
+Check for OVA property availability: PASS
+Check the host's configurations against the vCSA's CPU, memory and datastore
+size requirements: PASS
+Check VC management status of ESXi containers: PASS
+Check target datastore free space: PASS
+Check Single Sign-On Server identity: PASS
+Check Single Sign-On Server credentials: PASS
+Check whether the Platform Services Controller (PSC) is external: PASS
+
+Basic verification completed successfully.
+================== [6] OVF Tool Execution started at 13:28:31 ==================
+Running OVF Tool to deploy the OVF...
+OVF Tool: Opening OVA source:
+/mnt/vcsa/vcsa-cli-installer/lin64/../../vcsa/VMware-vCenter-Server-Appliance-6.5.0.10000-5973321_OVF10.ova
+OVF Tool: Opening VI target: vi://root@10.1.53.17:443/
+OVF Tool: Deploying to VI: vi://root@10.1.53.17:443/
+OVF Tool: Disk progress: 1%OVF Tool: Disk progress: 2%OVF Tool: Disk progress: 3%OVF Tool: Disk progress: 4%OVF Tool: Disk progress: 5%OVF Tool: Disk progress: 6%OVF Tool: Disk progress: 7%OVF Tool: Disk progress: 8%OVF Tool: Disk progress: 9%OVF Tool: Disk progress: 10%OVF Tool: Disk progress: 11%OVF Tool: Disk progress: 12%OVF Tool: Disk progress: 13%OVF Tool: Disk progress: 14%OVF Tool: Disk progress: 15%OVF Tool: Disk progress: 16%OVF Tool: Disk progress: 17%OVF Tool: Disk progress: 18%OVF Tool: Disk progress: 19%OVF Tool: Disk progress: 20%OVF Tool: Disk progress: 21%OVF Tool: Disk progress: 22%OVF Tool: Disk progress: 23%OVF Tool: Disk progress: 24%OVF Tool: Disk progress: 25%OVF Tool: Disk progress: 26%OVF Tool: Disk progress: 27%OVF Tool: Disk progress: 28%OVF Tool: Disk progress: 29%OVF Tool: Disk progress: 30%OVF Tool: Disk progress: 31%OVF Tool: Disk progress: 32%OVF Tool: Disk progress: 33%OVF Tool: Disk progress: 34%OVF Tool: Disk progress: 35%OVF Tool: Disk progress: 36%OVF Tool: Disk progress: 37%OVF Tool: Disk progress: 38%OVF Tool: Disk progress: 39%OVF Tool: Disk progress: 40%OVF Tool: Disk progress: 41%OVF Tool: Disk progress: 42%OVF Tool: Disk progress: 43%OVF Tool: Disk progress: 44%OVF Tool: Disk progress: 45%OVF Tool: Disk progress: 46%OVF Tool: Disk progress: 47%OVF Tool: Disk progress: 48%OVF Tool: Disk progress: 49%OVF Tool: Disk progress: 50%OVF Tool: Disk progress: 51%OVF Tool: Disk progress: 52%OVF Tool: Disk progress: 53%OVF Tool: Disk progress: 54%OVF Tool: Disk progress: 55%OVF Tool: Disk progress: 56%OVF Tool: Disk progress: 57%OVF Tool: Disk progress: 58%OVF Tool: Disk progress: 59%OVF Tool: Disk progress: 60%OVF Tool: Disk progress: 61%OVF Tool: Disk progress: 62%OVF Tool: Disk progress: 63%OVF Tool: Disk progress: 64%OVF Tool: Disk progress: 65%OVF Tool: Disk progress: 66%OVF Tool: Disk progress: 67%OVF Tool: Disk progress: 68%OVF Tool: Disk progress: 69%OVF Tool: Disk progress: 70%OVF Tool: Disk progress: 71%OVF Tool: Disk progress: 72%OVF Tool: Disk progress: 73%OVF Tool: Disk progress: 74%OVF Tool: Disk progress: 75%OVF Tool: Disk progress: 76%OVF Tool: Disk progress: 77%OVF Tool: Disk progress: 78%OVF Tool: Disk progress: 79%OVF Tool: Disk progress: 80%OVF Tool: Disk progress: 81%OVF Tool: Disk progress: 82%OVF Tool: Disk progress: 83%OVF Tool: Disk progress: 84%OVF Tool: Disk progress: 85%OVF Tool: Disk progress: 86%OVF Tool: Disk progress: 87%OVF Tool: Disk progress: 88%OVF Tool: Disk progress: 89%OVF Tool: Disk progress: 90%OVF Tool: Disk progress: 91%OVF Tool: Disk progress: 92%OVF Tool: Disk progress: 93%OVF Tool: Disk progress: 94%OVF Tool: Disk progress: 95%OVF Tool: Disk progress: 96%OVF Tool: Disk progress: 97%OVF Tool: Disk progress: 98%OVF Tool: Disk progress: 99%
+OVF Tool: Transfer Completed
+OVF Tool: Powering on VM: vcenter-6.5.0-5973321
+OVF Tool: Task progress: 0%OVF Tool: Task progress: 24%OVF Tool: Task progress: 50%OVF Tool: Task progress: 71%
+OVF Tool: Task Completed
+OVF Tool: Completed successfully
+================= [7] Service Installation started at 13:32:49 =================
+Installing services...
+Gathering VC support log bundle. This can take a few minutes.
+=================================== 14:30:51 ===================================
+Result and Log File Information...
+The vCenter Server Appliance installer result file:
+/tmp/vcsaCliInstaller-2019-01-05-13-28-7CorCb/vcsa-cli-installer.json The
+vCenter Server Appliance installer log file:
+/tmp/vcsaCliInstaller-2019-01-05-13-28-7CorCb/vcsa-cli-installer.log The vCenter
+Server Appliance installer metadata file:
+/tmp/vcsaCliInstaller-2019-01-05-13-28-7CorCb/vcsa-cli-installer-metadata.json
+The vCenter Server Appliance installer status file:
+/tmp/vcsaCliInstaller-2019-01-05-13-28-7CorCb/vcsa-cli-installer-status.json The
+generated template file:
+/tmp/vcsaCliInstaller-2019-01-05-13-28-7CorCb/generated_install.json

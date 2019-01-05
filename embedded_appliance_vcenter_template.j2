@@ -3,36 +3,34 @@
     "__comments": "Sample template to deploy a vCenter Server Appliance with an embedded Platform Services Controller on an ESXi host.",
     "new.vcsa": {
         "esxi": {
-            "hostname": "10.1.53.8"
-            "username": "root"
-            "password": "cisco1234%"
-            "deployment.network": "HX62"
-            "datastore": "DATASTORE_LARGE"
+            "hostname": "{{ esxi_hostname }}",
+            "username": "{{ esxi_username }}",
+            "password": "{{ esxi_password }}",
+            "deployment.network": "{{ esxi_network }}",
+            "datastore": "{{ esxi_datastore }}"
         },
         "appliance": {
             "thin.disk.mode": true,
             "deployment.option": "small",
-            "name": "vCenter-6.5-temp"
+            "name": "{{ vc_name }}"
         },
         "network": {
             "ip.family": "ipv4",
             "mode": "static",
-            "ip": "10.1.53.101"
-            "dns.servers": "[u'10.1.53.8']"
-                "10.1.53.8"
-            ],
-            "prefix": "24"
-            "gateway": "10.1.53.254"
-            "system.name": "10.1.53.101"
+            "ip": "{{ vc_ip }}",
+            "dns.servers": [ "{{ vc_dns }}" ],
+            "prefix": "{{ vc_prefix }}",
+            "gateway": "{{ vc_gateway }}",
+            "system.name": "{{ vc_ip }}"
         },
         "os": {
-            "password": "cisco1234%"
-            "ssh.enable": "True"
-            "ntp.servers": "10.1.53.8"
+            "password": "{{ vc_password }}",
+            "ssh.enable": true,
+            "ntp.servers": "{{ vc_ntp }}"
         },
         "sso": {
-            "password": "cisco1234%"
-            "domain-name": "vsphere.local"
+            "password": "{{ vc_password }}",
+            "domain-name": "vsphere.local",
             "site-name": "Site1"
         }
     },
