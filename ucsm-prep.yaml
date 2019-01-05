@@ -1,0 +1,51 @@
+- hosts: localhost
+  connection: local
+  tasks:
+#  - name: create boot policy (Hyperflex-temp)
+#    cisco_ucs_boot_policy:
+#      name: "Hyperflex-temp"
+#      org_dn: "org-root/org-HX-28LAB_2"
+#      reboot_on_update: "no"
+#      enforce_vnic_name: "yes"
+#      boot_mode: "legacy"
+#      policy_owner: "local"
+#      descr: "Recommended boot policy for HyperFlex servers"
+#      state: "present"
+#      ucs_ip: "10.74.202.107"
+#      ucs_username: "admin"
+#      ucs_password: "cisco,123"
+  - name: Modify boot order for boot policy - Hyperflex
+    cisco_ucs_boot_order:
+      org_dn: "org-root/org-HX-28LAB_2"
+      name: "Hyperflex-temp"
+      devices:
+        - {"device_name": "cd_dvd_cimc", "device_order": "1"}
+        - {"device_name": "cd_dvd_local", "device_order": "2"}
+        - {"device_name": "sdcard", "device_order": "3"}
+      ucs_ip: "10.74.202.107"
+      ucs_username: "admin"
+      ucs_password: "cisco,123"
+#  - name: Create vmedia policy
+  - name: apply vmedia policy to sp template for boot policy - Hyperflex
+    ucs_service_profile_template:
+      name: "hx-nodes"
+      org_dn: "org-root/org-HX-28LAB_2"
+      vmedia_policy: "Hyperflex"
+      template_type: "updating-template"
+      bios_policy: "Hyperflex"
+      boot_policy: "Hyperflex-temp"
+      description: "Recommended boot policy for HyperFlex servers"
+      host_firmware_package: "Hyperflex"
+      lan_connectivity_policy: "Hyperflex"
+      local_disk_policy: "Hyperflex"
+      maintenance_policy: "Hyperflex"
+      mgmt_ip_pool: "hx-ext-mgmt"
+      power_control_policy: "Hyperflex"
+      scrub_policy: "Hyperflex"
+      sol_policy: "Hyperflex"
+      threshold_policy: "default"
+      uuid_pool: ""
+      state: "present"
+      hostname: "10.74.202.107"
+      username: "admin"
+      password: "cisco,123"

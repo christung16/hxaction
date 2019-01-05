@@ -1,0 +1,26 @@
+vcsa_iso: /var/lib/tftpboot/images/VMware-VCSA-all-6.5.0-8307201.iso
+vc_esxi:
+  hostname: 10.74.202.123
+  username: root
+  password: cisco,123
+  deploymentnetwork: VM Network
+  datastore: datastore1 (4)
+vc_appliance:
+  name: vCenter-6.0-temp
+vc_network:
+  ipfamily: ipv4
+  ip: 10.74.202.100
+  mode: static
+  dnsservers: 64.104.123.145
+  prefix: 24
+  gateway: 10.74.202.1
+  systemname: 10.74.202.100
+vc_os:
+  password: Cisco,123
+## Need to ensure all lower characters so need a double quote
+  sshenable: "false"
+  ntpservers: ntp.esl.cisco.com
+vc_sso:
+  password: Cisco,123
+  domainname: vsphere.local
+  sitename: Site1

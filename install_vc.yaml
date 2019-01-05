@@ -5,14 +5,25 @@
     - common
 
   tasks:
+<<<<<<< HEAD
   - name: Construct embedded_appliance_vcenter json file
     template:
       src: /root/hxaction/embedded_appliance_vcenter_template.j2
       dest: /root/hxaction/embedded_appliance_vcenter_1.json
+=======
+  - name: update embedded_appliance_vcenter.json
+    template:
+      src: /root/hxaction/embedded_appliance_vcenter.json.j2
+      dest: /root/hxaction/embedded_appliance_vcenter_1.json
+      owner: root
+      group: root
+      mode: u=rw,g=r,o=r
+>>>>>>> 26c66fe09e9c358959101144316cd975f9a90805
     tags: pre-install
   - name: mount VCSA iso to /mnt/vcsa
     mount:
       path: /mnt/vcsa
+<<<<<<< HEAD
       src: "{{ vcsa_iso }}"
       fstype: iso9660
       opts: ro,noauto
@@ -34,3 +45,26 @@
       state: unmounted
     tags: unmountiso
  
+=======
+      src: '{{ vcsa_iso }}'
+      fstype: iso9660
+      opts: ro,noauto
+      state: mounted
+    tags: pre-install
+  - name: Installing vCenter
+    shell: /mnt/vcsa/vcsa-cli-installer/lin64/vcsa-deploy install --acknowledge-ceip --accept-eula --no-esx-ssl-verify /root/hxaction/embedded_appliance_vcenter_1.json >> /root/hxaction/vcsa-deploy.log
+    tags: install
+  - name: umount VCSA iso
+    mount:
+      path: /mnt/vcsa
+      src: '{{ vcsa_iso }}'
+      fstype: iso9660
+      opts: ro,noauto
+      state: unmounted
+    tags: pre-install
+#  - name: update UCSM HX vmedia policy to ESXI_custom ISO
+#  - name: update UCSM boot policy template to boot vmedia
+#  - name: boot server
+#  - name: update UCSM boot policy template to HDD
+  
+>>>>>>> 26c66fe09e9c358959101144316cd975f9a90805

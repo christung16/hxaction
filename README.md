@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 deploy vcenter 6.5 has to set correct NTP and DNS. Otherwise, it may fail to install the RPM modules.
 Also remind the root expiry date.
 
@@ -19,4 +20,15 @@ vc_ntp: '<ntp ip>'
 vc_password: '<vcenter password>'
 vcsa_iso: '<VCSA ISO>'
 
+=======
+hxaction
+
+fix the tag issue
+
+New Change made
+
+New change x2
+
+New change x3
+>>>>>>> 26c66fe09e9c358959101144316cd975f9a90805
 
